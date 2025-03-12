@@ -12,7 +12,13 @@ LLM-NewsClassifier is a text classification project that uses **DistilBERT**, a 
 To run this project locally, install the required dependencies:
 
 ```bash
-pip install torch transformers pandas numpy tqdm jupyter
+pip install torch transformers pandas numpy tqdm jupyter argparse
+```
+
+or 
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Dataset
